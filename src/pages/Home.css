@@ -38,3 +38,30 @@
     height: 100px;
     font-size: 50px;
 }
+
+
+/* Media Query لشاشات أقل من 768px */
+@media (max-width: 768px) {
+    .paragraph {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .smalparagraph {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .buttontogotoservices {
+        font-size: 24px;
+        height: auto;
+        padding: 10px 15px;
+    }
+
+    .image {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        border-radius: 20px;
+    }
+}
