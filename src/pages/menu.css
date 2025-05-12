@@ -47,3 +47,18 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+
+    .card {
+        
+        margin-top: 8%;
+       
+    }
+    .card .btnofcard {
+       
+        width: 92% !important;
+       
+    }
+
+
+}

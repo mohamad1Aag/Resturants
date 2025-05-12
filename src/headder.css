@@ -56,6 +56,12 @@ a:hover{
 
 /* MEDIA QUERY لشاشات الجوال */
 @media (max-width: 768px) {
+
+   
+
+    .navforheader {
+        background-color: rgb(252, 250, 248,0);
+    }
     .header {
         flex-direction: column;
         gap: 10px;
