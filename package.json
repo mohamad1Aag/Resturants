@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://mohamad1aag.github.io/Resturants",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,10 +11,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-helmet": "^6.1.0",
+    "react-qr-code": "^2.0.15",
     "react-router-dom": "^7.6.0"
   },
   "devDependencies": {

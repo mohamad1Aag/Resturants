@@ -67,8 +67,25 @@ button:focus-visible {
   }
 } */
 body {
+  height: 210vh;
+  
   
   place-items: top;
-  background-color: blanchedalmond;
+  /* background: linear-gradient(
+  -110deg,
+  #006C35 0%,   
+  #007A3D 1%,  
+  #00994D 55%,  
+  #eeeeee 100%  
+); 
+*/
+background: linear-gradient(
+  240deg,
+  #006C35 10%,
+  #007A3D 25%,
+  #00994D 50%,
+  rgb(248,173,13,0.8) 60%,
+  #FFFFFF 100% );
+  
 
 }

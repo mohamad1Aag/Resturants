@@ -1,5 +1,7 @@
 
-
+#root{
+    margin: -24px;
+}
 .header{
     display: flex;
     flex-direction: row;
@@ -17,7 +19,8 @@ a{
     color: black;
 }
 a:hover{
-    background-color: rgb(198, 214, 214);
+    background-color: rgba(2, 2, 2, 0.2);
+    border-radius: 10%;
   
 }
 .inputSerch{
@@ -44,8 +47,7 @@ a:hover{
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    margin: 0;
+ 
 
       
     

@@ -1,0 +1,40 @@
+.paragraph{
+ 
+    color: blanchedalmond;
+    font-size:50px;
+   
+
+}
+.smalparagraph{
+    color: blanchedalmond;
+    font-size:30px;
+}
+.bigcontainer{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+        align-items: center;
+}
+
+
+.big_image{
+    width: fit-content;
+   display: flex;
+  
+
+    
+}
+.image{
+    border-radius: 50px;
+}
+.buttontogotoservices{
+    margin-top: 20px;
+    color: blanchedalmond;
+    background-color: rgb(0, 0, 0 ,0.1);
+    border: none;
+    border-radius: 50px;
+    width: fit-content;
+    height: 100px;
+    font-size: 50px;
+}
